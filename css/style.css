@@ -11,7 +11,9 @@
   --accent-color: #2196f3;
   --premiry-bg-color: #f5f4fa;
   --white-color: #ffffff;
+  --dark-bg-color: #2F303A;
 }
+
 
 body {
   font-family: Roboto, sans-serif;
@@ -28,14 +30,19 @@ body {
 
 .logo {
   font-family: Raleway, sans-serif;
-  color: var(--primary-text-color);
+  color: var(--accent-color);
   font-size: 26px;
   line-height: 1.2px;
   text-decoration: none;
 }
 .accent {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
 }
+
+.accent-logo{
+  color: var(--white-color);
+}
+
 ul {
   list-style: none;
 }
@@ -79,6 +86,7 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  color: var(--white-color);
 }
 
 /* button */
@@ -142,6 +150,7 @@ ul {
   line-height: 1.16;
   text-align: center;
 }
+
 /* team */
 
 .team {
@@ -156,4 +165,28 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+}
+
+.dark-bg{
+background:var(--dark-bg-color)
+
+}
+
+.address-nav .link{
+font-weight: 400;
+font-size: 14px;
+font-style: normal;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+ text-decoration: none;
+}
+
+.address-item .link{
+color: var(--white-color)
+}
+
+.address-nav .link:hover,
+.address-nav .link:focus {
+  color: var(--accent-color);
 }
