@@ -17,7 +17,7 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-weight:400;
+  font-weight:500;
   font-size: 14px;
   line-height:1.71px;
   letter-spacing: 0.03em;
@@ -153,8 +153,14 @@ ul {
 
 /* team */
 
+.section{
+  background:var(--premiry-bg-color);
+}
+
+
+
 .team {
-  color: var(--list-text-color);
+  background: var(--white-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
